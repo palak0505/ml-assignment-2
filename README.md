@@ -8,7 +8,7 @@ Roll number: M26MAC006 (seed = 26006)
 - `q2.py` - SAMME AdaBoost
 - `q3.py` - bias and variance over 30 resampled training sets
 - `results/split.npz` - the saved train/val/test split
-- `results/frozen.json` - frozen configurations (tree, B, boosting depth/rounds)
+- `results/frozen.json` - frozen configurations 
 - `results/.json`, `logs/.log` - final numbers and logs
 - `figs/` - all figures
 
