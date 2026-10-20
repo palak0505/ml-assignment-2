@@ -1,0 +1,11 @@
+# assignment handout
+ml 2.pdf
+
+# saved models are recreated by the scripts
+models/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

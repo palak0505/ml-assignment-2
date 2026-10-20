@@ -1,0 +1,10 @@
+{
+  "tree_params": {
+    "max_depth": null,
+    "min_samples_leaf": 2
+  },
+  "B": 100,
+  "seed": 26006,
+  "boost_depth": 4,
+  "boost_rounds": 100
+}

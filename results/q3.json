@@ -1,0 +1,119 @@
+{
+  "settings": {
+    "shallow": {
+      "max_depth": 4,
+      "min_samples_leaf": 2
+    },
+    "selected": {
+      "max_depth": null,
+      "min_samples_leaf": 2
+    },
+    "deepest": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    }
+  },
+  "selected_models": {
+    "tree": {
+      "bias2": 0.41177777777777774,
+      "variance": 0.6590555555555556,
+      "acc_mean": 0.46458333333333335,
+      "acc_std": 0.05618823769754268,
+      "masked_acc_mean": 0.3104166666666667
+    },
+    "bagging": {
+      "bias2": 0.523138075,
+      "variance": 0.024366175,
+      "acc_mean": 0.7645833333333333,
+      "acc_std": 0.03624042019010756,
+      "masked_acc_mean": 0.4891666666666667
+    },
+    "boosting": {
+      "bias2": 0.8830321030072691,
+      "variance": 0.016460672529019255,
+      "acc_mean": 0.34875000000000006,
+      "acc_std": 0.0818630716501647,
+      "masked_acc_mean": 0.29625
+    }
+  },
+  "depths": {
+    "shallow": {
+      "tree": {
+        "bias2": 0.8565614392662779,
+        "variance": 0.06687928980312774,
+        "acc_mean": 0.09916666666666667,
+        "acc_std": 0.01674979270186815,
+        "masked_acc_mean": 0.09625
+      },
+      "bag": {
+        "bias2": 0.8875905666666668,
+        "variance": 0.013195266666666669,
+        "acc_mean": 0.28958333333333336,
+        "acc_std": 0.05637332160595905,
+        "masked_acc_mean": 0.2733333333333333
+      },
+      "leaf": {
+        "n_leaves": 5.1,
+        "mean_samples_per_leaf": 47.27619047619047,
+        "frac_singleton_leaves": 0.0,
+        "depth": 4.0
+      },
+      "disagreement": 0.9474469696969697,
+      "variance_removed": 0.05368402313646107,
+      "variance_removed_pct": 80.2700257351573,
+      "acc_gain": 0.19041666666666668
+    },
+    "selected": {
+      "tree": {
+        "bias2": 0.41177777777777774,
+        "variance": 0.6590555555555556,
+        "acc_mean": 0.46458333333333335,
+        "acc_std": 0.05618823769754268,
+        "masked_acc_mean": 0.3104166666666667
+      },
+      "bag": {
+        "bias2": 0.523138075,
+        "variance": 0.024366175,
+        "acc_mean": 0.7645833333333333,
+        "acc_std": 0.03624042019010756,
+        "masked_acc_mean": 0.4891666666666667
+      },
+      "leaf": {
+        "n_leaves": 40.0,
+        "mean_samples_per_leaf": 6.0,
+        "frac_singleton_leaves": 0.0,
+        "depth": 35.2
+      },
+      "disagreement": 0.8302145622895624,
+      "variance_removed": 0.6346893805555556,
+      "variance_removed_pct": 96.30286478968219,
+      "acc_gain": 0.29999999999999993
+    },
+    "deepest": {
+      "tree": {
+        "bias2": 0.4025,
+        "variance": 0.6366666666666667,
+        "acc_mean": 0.48041666666666666,
+        "acc_std": 0.04662386429954324,
+        "masked_acc_mean": 0.29583333333333334
+      },
+      "bag": {
+        "bias2": 0.5159026388888889,
+        "variance": 0.02457486111111111,
+        "acc_mean": 0.7625000000000001,
+        "acc_std": 0.03259601202601325,
+        "masked_acc_mean": 0.53625
+      },
+      "leaf": {
+        "n_leaves": 40.0,
+        "mean_samples_per_leaf": 6.0,
+        "frac_singleton_leaves": 0.0,
+        "depth": 34.96666666666667
+      },
+      "disagreement": 0.825300505050505,
+      "variance_removed": 0.6120918055555556,
+      "variance_removed_pct": 96.14007417102967,
+      "acc_gain": 0.2820833333333334
+    }
+  }
+}

@@ -1,0 +1,52 @@
+refit 4 done
+refit 3 done
+refit 2 done
+refit 1 done
+refit 6 done
+refit 7 done
+refit 5 done
+refit 8 done
+refit 9 done
+refit 12 done
+refit 10 done
+refit 11 done
+refit 13 done
+refit 15 done
+refit 14 done
+refit 16 done
+refit 17 done
+refit 18 done
+refit 20 done
+refit 19 done
+refit 21 done
+refit 22 done
+refit 24 done
+refit 23 done
+refit 25 done
+refit 26 done
+refit 27 done
+refit 28 done
+refit 29 done
+refit 30 done
+== Q3(a) selected models, 30 refits ==
+tree      bias2=0.4118 variance=0.6591 test acc=0.4646 +- 0.0562
+bagging   bias2=0.5231 variance=0.0244 test acc=0.7646 +- 0.0362
+boosting  bias2=0.8830 variance=0.0165 test acc=0.3488 +- 0.0819
+== Q3(b,c) depth study ==
+shallow  depth~4.0 leaves=5.1 samples/leaf=47.28 singleton=0.000
+   tree: bias2=0.8566 var=0.0669 acc=0.0992
+   bag : bias2=0.8876 var=0.0132 acc=0.2896
+   variance removed=0.0537 (80.3%), acc gain=0.1904, tree disagreement=0.9474
+selected depth~35.2 leaves=40.0 samples/leaf=6.00 singleton=0.000
+   tree: bias2=0.4118 var=0.6591 acc=0.4646
+   bag : bias2=0.5231 var=0.0244 acc=0.7646
+   variance removed=0.6347 (96.3%), acc gain=0.3000, tree disagreement=0.8302
+deepest  depth~35.0 leaves=40.0 samples/leaf=6.00 singleton=0.000
+   tree: bias2=0.4025 var=0.6367 acc=0.4804
+   bag : bias2=0.5159 var=0.0246 acc=0.7625
+   variance removed=0.6121 (96.1%), acc gain=0.2821, tree disagreement=0.8253
+== Q3(d) table ==
+model     clean acc masked acc   bias2 variance
+tree         0.4646     0.3104  0.4118   0.6591
+bagging      0.7646     0.4892  0.5231   0.0244
+boosting     0.3488     0.2963  0.8830   0.0165
