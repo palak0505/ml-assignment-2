@@ -68,7 +68,7 @@ for B in Bs:
     bag_rows.append(row)
     print(row)
 
-B_final = max(bag_rows, key=lambda r: r["val"])["B"]  # ties go to the smaller B
+B_final = max(bag_rows, key=lambda r: r["val"])["B"]  
 print("final B:", B_final)
 
 fig, ax = plt.subplots(1, 3, figsize=(7, 2.3))
