@@ -40,7 +40,6 @@ def one_refit(r):
 
 
 def bias_variance(P):
-    # P has shape (R, N, K): class vector for every refit and test face
     p_mean = P.mean(0)
     target = np.eye(K)[yte]
     bias2 = ((p_mean - target) ** 2).sum(1).mean()
