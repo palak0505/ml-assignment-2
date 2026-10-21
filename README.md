@@ -1,4 +1,4 @@
-# ML Assignment 2: Bagging, Boosting and Bias-Variance on Olivetti Faces
+# ML Assignment 2: Bagging, Boosting and Bias Variance on Face Recognition
 
 Roll number: M26MAC006 (seed = 26006)
 
